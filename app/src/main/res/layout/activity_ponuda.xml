@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".PonudaActivity">
+
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/inputText"
+            />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="14dp">
+
+
+    <TextView
+        android:id="@+id/ime"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:gravity="center_vertical"
+        android:text="Vapiano"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="150dp"
+        android:layout_height="3dp"
+        android:background="@color/hintText" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:layout_width="420dp"
+        android:layout_height="180dp">
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="460dp"
+            android:layout_height="250dp"
+            android:src="@drawable/vapiano"
+            android:layout_marginLeft="-35dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/opis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:gravity="center_vertical"
+        android:padding="6dp"
+        android:text="Chi va piano va sano e va lontano."
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+
+        />
+    <TextView
+        android:id="@+id/opis1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:gravity="center_vertical"
+        android:padding="6dp"
+        android:text="Vapiano polaže veliki značaj na beskompromisnu svežinu. Otuda je razumljivo, da naše testenine proizvodimo sveže svaki dan i pred Vašim očima pripremamo jednu od mnogih testenina u našoj Pasta Manifaturi"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+
+        />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/textGray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Kontakt telefon:"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/lightPink1"
+
+            />
+
+        <TextView
+            android:id="@+id/broj"
+            android:layout_width="wrap_content"
+            android:layout_height="?actionBarSize"
+            android:layout_weight="1"
+            android:gravity= "start|center_vertical"
+            android:text="+381111234"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            android:textColor="@color/hintText"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
